@@ -1,0 +1,54 @@
+name: collegebustracker
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^11.0.1
+  url_launcher: ^6.1.14
+  uuid : ^4.2.1
+  shared_preferences : ^2.2.2
+  google_sign_in : 6.2.2
+  flutter_image_compress: ^2.4.0
+
+
+  # UI and Icons
+  cupertino_icons: ^1.0.8
+
+  # Firebase Dependencies
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  firebase_messaging: ^15.2.4
+
+  # Maps and Location
+  google_maps_flutter: ^2.10.1
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  flutter_polyline_points: ^2.0.0 # For drawing routes
+  http: ^1.2.0 # Required for Google Directions API
+
+  # Real-time Communication
+  firebase_database: ^11.3.4
+  location: ^8.0.0
+
+  # State Management
+  provider: ^6.1.2
+  pinput: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/arrow.jpeg
